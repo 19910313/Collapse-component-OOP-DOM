@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>COLLAPSE COMPONENT</title>
+    <link rel="stylesheet" href="collapse.css" />
+  </head>
+  <body>
+    <h1>COLLAPSE COMPONENT</h1>
+    <div class="collapse-wraper"></div>
+    <script src="collapse.js"></script>
+    <script>
+      const wrappingDiv = document.querySelector(".collapse-wraper");
+      let collapse = new Collapse(
+        wrappingDiv,
+        "Show Details",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti perspiciatis architecto praesentium quod aperiam dolore fugiat itaque neque maxime id consectetur, officia modi reprehenderit? Aperiam tenetur nobis cumque illo eligendi?"
+      );
+      collapse.render();
+    </script>
+  </body>
+</html>

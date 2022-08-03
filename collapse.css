@@ -1,0 +1,13 @@
+body {
+  background-color: #123;
+  color: white;
+}
+.collapse {
+}
+.collapse button {
+  font-size: 2rem; /*   HW1:     2rem = 32px */
+  padding: 2em; /*   HW2:      1em = 32px && 1 em = x rem font existing . */
+  background-color: #234;
+  border: 1px solid #456;
+  color: #789;
+}
